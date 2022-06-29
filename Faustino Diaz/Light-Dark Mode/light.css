@@ -1,0 +1,17 @@
+
+/* Modo claro */
+
+
+body{
+   color: black;
+   background-color: white;
+   outline: none;
+   border: 0;
+}
+input{background-color: white;
+
+}
+header{
+   background-color: white;
+}
+

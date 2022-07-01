@@ -1,6 +1,5 @@
 
-
-//Codigo para que switchee de modo 
+//Codigo para que switchee de modo claro a oscuro  
 $('.checkbox').click(function(){
 if($('input.checkbox').is(':checked')){
     $('.theme').attr('href', 'css/dark.css');    

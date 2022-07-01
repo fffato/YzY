@@ -1,0 +1,57 @@
+/* Modo oscuro */
+*{transition: .5;}
+body{
+   background-color: gray;
+   color: white;
+}
+input{
+    background-color: gray;
+    border-color: white;
+    outline: none;
+    border: 0;
+   
+}
+header i{
+    color: gray;
+    
+}
+
+header{
+    background-color: #001e28;
+
+}
+.card .back{
+    background-color: white;
+}
+.card .face{
+    background-color: gray;
+}
+.card .face h4{
+    color: black;
+}
+.card h3{
+    color: black;
+}
+.card .back{
+    background-color: #3c3a3a;}
+.card-content{
+    background-color: #3c3a3a;
+}
+.overlay{
+    background-color: #001e28;
+}
+.container{
+    background-color: #3c3a3a;
+    opacity: 0.7;}
+.image-content{
+    background-color: #3c3a3a;}
+.card .front h3{
+    background: #001e28;}
+.name{
+    color: black;}
+    .logo{width: 130px;
+        height: 90px;
+        background: url(/images/logolight.png);
+        background-size: cover;
+        z-index: 4;    
+      }

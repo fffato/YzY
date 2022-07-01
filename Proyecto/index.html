@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="light.css" class="theme"><!--Necesario agregar clase theme para referenciarlo en js-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/light.css" class="theme"><!--Necesario agregar clase theme para referenciarlo en js-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
     <title>YzYsports</title>
 </head>
 <body>
 <header> 
         <div class="logo">
-            <img class="logo" src="./logo.png" alt="YzY" id="demo">
+            
             
         </div>
     <nav class="iconos">
@@ -25,13 +29,185 @@
             </label>
     </nav>
 </header>
+<div class="PAGOS">
+    <div class="card">
+        <div class="face front">
+            <h4>GRATIS</h4>
+            <h3>ESTANDAR</h3>
+        </div>
+        <div class="face back">
+            <h3>ESTANDAR</h3>
+            <p>Este es el plan por defecto,podras visualizar los resultados y equipos que desees,pero tendras publicidad.</p>
+            <div class="link">
+                <a href="#">Mas Informacion</a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="face front">
+            <h4 class="box">5$</h4>
+            <h3>PREMIUM</h3>
+        </div>
+        <div class="face back">
+            <h3>PREMIUM</h3>
+            <p>Este plan cuenta con un sistema de notificacion de tus equipos favoritos y no tiene publicidad</p>
+            <div class="link">
+                <a href="#">Mas Informacion</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    
+    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+                
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="./images/$.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name"><b>Cuanto cuesta la suscripcion?</b></h2>
+                        <p class="description"><br>La suscripcion premium cuesta $5</p><br>
+
+                    
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="./images/infinito.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name"><b>La suscripcion es infinita?</b></h2>
+                        <p class="description"><br>No,dura 1 mes.(La facturacion se renueva cada mes)</p>    
+
+                       
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="./images/candado.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name"><b>Mis datos son publicos?</b></h2>
+                        <p class="description"><br>No,estan en una base de datos privada,y su divulgacion es ilegal.</p>
+
+                   
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="./images/estrella.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name"><b>Puedo seguir a mi equipo favorito?</b></h2>
+                        <p class="description">De hecho, no solo puedes seguirlo,sino que con <b>YzY+</b> recibes las noticias a tu casilla de correo electronico.</p>
+
+                      
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+
+                        <div class="card-image">
+                            <img src="./images/live.png" alt="" class="card-img">
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <h2 class="name"><b>Solo puedo ver resultados viejos?</b></h2>
+                        <p class="description">No,eso es lo que nos diferencia del resto,en <b>YzYSports</b> se actualizan los resultados minuto a minuto,incluso de partidos en vivo.</p>
+
+                        
+                    </div>
+                </div>
+               
+                
+
+            </div>
+        </div>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
 
 
 
-  <!-- JavaScript Bundle with Popper -->
+
+
+<!--<div class="PAGOS">
+    <div class="card">
+        <div class="face front">
+            <h4>5$</h4>
+            <h3>PREMIUM</h3>
+        </div>
+        <div class="face back">
+            <h3>PREMIUM</h3>
+            <p>Este plan cuenta con un sistema de notificacion de tus equipos favoritos y no tiene publicidad</p>
+            <div class="link">
+                <a href="#">Mas Informacion</a>
+            </div>
+        </div>
+    </div>
+</div-->
+</div>
+<footer>
+    <div class="footer-content">
+        <h3>YzYsports</h3>
+        <p>Gracias por visitar nuestra pagina, aqui tienes nuestras redes sociales</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+        <ul class="socials">
+            <li><a href="#"><i>Nosotros</i></a></li>
+            <li><a href="#"><i>Ayuda</i></a></li>
+        </ul>
+
+    </div>
+    
+    <div class="footer-bottom">
+        <p>© Copyright by YzY</p>
+    </div>
+</footer>
+
+
+
+  
+   <!-- Swiper JS -->
+   <script src="js/swiper-bundle.min.js"></script>
+   <!-- JavaScript Bundle with Popper -->
+   <script src="js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
